@@ -1,16 +1,16 @@
-import ab from "./src/ab.json" assert { type: "json" };
-import bc from "./src/bc.json" assert { type: "json" };
-import mb from "./src/mb.json" assert { type: "json" };
-import nb from "./src/nb.json" assert { type: "json" };
-import nl from "./src/nl.json" assert { type: "json" };
-import ns from "./src/ns.json" assert { type: "json" };
-import nt from "./src/nt.json" assert { type: "json" };
-import nu from "./src/nu.json" assert { type: "json" };
-import on from "./src/on.json" assert { type: "json" };
-import pe from "./src/pe.json" assert { type: "json" };
-import qc from "./src/qc.json" assert { type: "json" };
-import sk from "./src/sk.json" assert { type: "json" };
-import yt from "./src/yt.json" assert { type: "json" };
+import ab from "./src/ab.json" with { type: "json" };
+import bc from "./src/bc.json" with { type: "json" };
+import mb from "./src/mb.json" with { type: "json" };
+import nb from "./src/nb.json" with { type: "json" };
+import nl from "./src/nl.json" with { type: "json" };
+import ns from "./src/ns.json" with { type: "json" };
+import nt from "./src/nt.json" with { type: "json" };
+import nu from "./src/nu.json" with { type: "json" };
+import on from "./src/on.json" with { type: "json" };
+import pe from "./src/pe.json" with { type: "json" };
+import qc from "./src/qc.json" with { type: "json" };
+import sk from "./src/sk.json" with { type: "json" };
+import yt from "./src/yt.json" with { type: "json" };
 
 export function getPlace(province) {
   switch (province) {
