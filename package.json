@@ -1,0 +1,27 @@
+{
+  "name": "regions-canada",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A collection of all localities in Canada",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "repository": "https://github.com/Enderchief/region-data",
+  "scripts": {
+    "download": "sh scripts/get.sh",
+    "parse": "node scripts/parse.js"
+  },
+  "keywords": [
+    "canada",
+    "canadian",
+    "regions",
+    "provinces",
+    "territories",
+    "cities",
+    "geography"
+  ],
+  "author": "Enderchief",
+  "license": "MIT",
+  "devDependencies": {
+    "@fast-csv/parse": "^5.0.2"
+  }
+}
